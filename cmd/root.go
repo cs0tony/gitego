@@ -11,7 +11,7 @@ import (
 )
 
 // The version of the application.
-var version = "0.1.2" // Updated for release
+var version = "0.2.0" // Updated for release
 
 var (
 	// versionFlag is a flag to print the version and exit.
