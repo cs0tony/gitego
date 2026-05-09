@@ -5,7 +5,7 @@ package cmd
 import (
 	"testing"
 
-	"github.com/bgreenwell/gitego/config"
+	"github.com/cs0tony/gitego/config"
 )
 
 func TestAddCommand(t *testing.T) {

@@ -32,7 +32,7 @@ for target in "${targets[@]}"; do
     fi
     
     echo "Building $output_name..."
-    GOOS=$OS GOARCH=$ARCH go build -ldflags "-X github.com/bgreenwell/gitego/cmd.version=$VERSION" -o "$OUTPUT_DIR/$output_name" .
+    GOOS=$OS GOARCH=$ARCH go build -ldflags "-X github.com/cs0tony/gitego/cmd.version=$VERSION" -o "$OUTPUT_DIR/$output_name" .
 done
 
 echo "Build complete! Binaries are in $OUTPUT_DIR"

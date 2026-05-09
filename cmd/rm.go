@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bgreenwell/gitego/config"
+	"github.com/cs0tony/gitego/config"
 	"github.com/spf13/cobra"
 )
 

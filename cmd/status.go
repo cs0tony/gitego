@@ -3,8 +3,8 @@
 package cmd
 
 import (
-	"github.com/bgreenwell/gitego/config"
-	"github.com/bgreenwell/gitego/utils"
+	"github.com/cs0tony/gitego/config"
+	"github.com/cs0tony/gitego/utils"
 	"github.com/spf13/cobra"
 )
 

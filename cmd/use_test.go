@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bgreenwell/gitego/config"
+	"github.com/cs0tony/gitego/config"
 )
 
 func TestUseCommand(t *testing.T) {

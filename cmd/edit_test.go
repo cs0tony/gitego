@@ -6,7 +6,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/bgreenwell/gitego/config"
+	"github.com/cs0tony/gitego/config"
 )
 
 // setupEditTestConfig creates a mock config for edit command testing.

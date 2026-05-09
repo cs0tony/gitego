@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bgreenwell/gitego/cmd"
+	"github.com/cs0tony/gitego/cmd"
 )
 
 func main() {

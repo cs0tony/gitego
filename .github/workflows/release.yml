@@ -92,7 +92,7 @@ jobs:
         
         # Build with version and other build flags
         GOOS=${{ matrix.goos }} GOARCH=${{ matrix.goarch }} go build \
-          -ldflags "-s -w -X github.com/bgreenwell/gitego/cmd.version=${{ steps.version.outputs.version }}" \
+          -ldflags "-s -w -X github.com/cs0tony/gitego/cmd.version=${{ steps.version.outputs.version }}" \
           -o "${binary_name}" .
         
         # Verify the binary was created

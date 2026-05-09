@@ -40,7 +40,7 @@ git push origin v0.1.1
 
 ### 3. Verify Installation
 ```bash
-go install github.com/bgreenwell/gitego@latest
+go install github.com/cs0tony/gitego@latest
 gitego --version
 ```
 

@@ -1,10 +1,10 @@
 ![](assets/logo.svg)
 
-[![Build Status](https://github.com/bgreenwell/gitego/actions/workflows/go-ci.yml/badge.svg)](https://github.com/bgreenwell/gitego/actions/workflows/go-ci.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bgreenwell/gitego)](https://goreportcard.com/report/github.com/bgreenwell/gitego)
-[![Go Reference](https://pkg.go.dev/badge/github.com/bgreenwell/gitego.svg)](https://pkg.go.dev/github.com/bgreenwell/gitego)
+[![Build Status](https://github.com/cs0tony/gitego/actions/workflows/go-ci.yml/badge.svg)](https://github.com/cs0tony/gitego/actions/workflows/go-ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cs0tony/gitego)](https://goreportcard.com/report/github.com/cs0tony/gitego)
+[![Go Reference](https://pkg.go.dev/badge/github.com/cs0tony/gitego.svg)](https://pkg.go.dev/github.com/cs0tony/gitego)
 ![Go Version](https://img.shields.io/badge/go%20version-%3E=1.24-61CFDD.svg)
-[![Latest Release](https://img.shields.io/github/v/release/bgreenwell/gitego)](https://github.com/bgreenwell/gitego/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/cs0tony/gitego)](https://github.com/cs0tony/gitego/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Your Git identity manager and automatic profile switcher.**
@@ -28,7 +28,7 @@ It seamlessly manages your `user.name`, `user.email`, SSH keys, and Personal Acc
 You must have [Go](https://go.dev/dl/) (version 1.24+) installed on your system.
 
 ```bash
-go install github.com/bgreenwell/gitego@latest
+go install github.com/cs0tony/gitego@latest
 ````
 
 *(Note: Ensure your Go bin directory, typically `~/go/bin`, is in your system’s `PATH`.)*
@@ -55,13 +55,13 @@ First, define your different identities.
 
 ```bash
 # A simple personal profile
-gitego add personal --name "Brandon" --email "brandon.personal@email.com" --username "bgreenwell-personal"
+gitego add personal --name "Brandon" --email "brandon.personal@email.com" --username "cs0tony-personal"
 
 # A work profile that uses a specific SSH key
-gitego add work-ssh --name "Brandon Greenwell" --email "brandon.work@company.com" --username "bgreenwell-work" --ssh-key ~/.ssh/id_work
+gitego add work-ssh --name "Brandon Greenwell" --email "brandon.work@company.com" --username "cs0tony-work" --ssh-key ~/.ssh/id_work
 
 # A client profile that uses a PAT for HTTPS
-gitego add client-abc --name "Brandon G." --email "brandon@client-abc.com" --username "bgreenwell-client" --pat "ghp_YourClientPATHere"
+gitego add client-abc --name "Brandon G." --email "brandon@client-abc.com" --username "cs0tony-client" --pat "ghp_YourClientPATHere"
 ```
 
 #### 2\. List your configured profiles

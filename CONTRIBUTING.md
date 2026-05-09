@@ -12,7 +12,7 @@ This project and everyone participating in it is governed by our [Code of Conduc
 
 ### Reporting Bugs
 
-If you find a bug, please ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/bgreenwell/gitego/issues).
+If you find a bug, please ensure the bug was not already reported by searching on GitHub under [Issues](https://github.com/cs0tony/gitego/issues).
 
 When you are creating a bug report, please include as many details as possible:
 * Your operating system and version.
@@ -22,7 +22,7 @@ When you are creating a bug report, please include as many details as possible:
 
 ### Suggesting Enhancements
 
-Enhancement suggestions are tracked as [GitHub issues](https://github.com/bgreenwell/gitego/issues).
+Enhancement suggestions are tracked as [GitHub issues](https://github.com/cs0tony/gitego/issues).
 * Use a clear and descriptive title.
 * Provide a step-by-step description of the suggested enhancement in as many details as possible.
 * Explain why this enhancement would be useful to other `gitego` users.
@@ -44,7 +44,7 @@ To get started with development, you'll need [Go](https://go.dev/dl/) (version 1
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/bgreenwell/gitego.git
+    git clone https://github.com/cs0tony/gitego.git
     cd gitego
     ```
 
